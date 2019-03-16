@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>自動化ツールWEB</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}" />
+        <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <span class="navbar-brand">自動化WEB</span>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/opefile">デスクトップクリーン<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="alert-area">
+            <!-- アラート -->
+            <div id="alert-info" class="alert alert-info alert-top" role="alert">
+                <button type="button" class="close alert-close" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="alert-msg"></span>
+            </div>
+            <div id="alert-warn" class="alert alert-warning alert-top" role="alert">
+                <button type="button" class="close alert-close" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <span class="alert-msg"></span>
+            </div>
+        </div>
+
+        <main role="main" class="container">
+            <div class="starter-template">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container text-center">
+                <span class="text-muted">© 2019 MATSUKADO</span>
+            </div>
+        </footer>
+        <!-- JavaScript -->
+        <script type="text/javascript" src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+        <!-- 共通JavaScript -->
+        <script type="text/javascript" src="{% static 'js/common.js' %}"></script>
+        <!-- 動的JavaScript -->
+        <script type="text/javascript" src="{% static 'js/opefile.js' %}"></script>
+
+    </body>
+</html>

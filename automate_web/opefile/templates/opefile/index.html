@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>デスクトップクリーン</h3>
+<p>デスクトップ上に存在するファイルを、一つのフォルダにまとめたり削除できたりします。</p>
+<form id="ope-fm" method="post" action="/opefile/ajax/modal/init">
+    <div class="row">
+        <div class="col-sm-3">操作区分</div>
+        <div class="col-sm-9 form-inline" style="padding: 3px;">
+            <select id="ope-kbn" name="ope-kbn" class="form-control input-sm">
+                <option value="ope_kbn_move">移動</option>
+                <option value="ope_kbn_delete">削除</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">移動先フォルダ</div>
+        <div class="col-sm-9 form-inline" style="padding: 3px;">
+            <input type="text" id="move_folder_path" name="move_folder_path" class="form-control input-sm" style="width:80%"
+                   placeholder="フォルダ名を含むパス">
+        </div>
+    </div>
+    <div class="row my-2">
+        <div class="col-sm-12">
+            <button type="button" id="btn-file-exec" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#checkModal">実行</button>
+        </div>
+    </div>
+    <div class="row my-3">
+
+    </div>
+    {% csrf_token %}
+</form>
+
+<!-- TODO:モーダルはjs内でコンポーネント化すべき ?-->
+<!-- モーダル部分始まり -->
+<div class="modal fade" id="checkModal" tabindex="-1" role="dialog" aria-labelledby="checkModalLabel">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div id="" class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="checkModalLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-content" class="">
+                    <!-- ajaxの結果を埋め込み -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                <button type="button" id="btn-file-ok" class="btn btn-primary">OK</button>
+            </div><!-- /.modal-footer -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- モーダル部分終わり -->
+{% endblock %}
