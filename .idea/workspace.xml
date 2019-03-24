@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788dad89-2a49-415a-83ca-17e7b9a40470" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/automate_web/Procfile.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automate_web/automate_web/settings.py" afterPath="$PROJECT_DIR$/automate_web/automate_web/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automate_web/requirements.txt" afterPath="$PROJECT_DIR$/automate_web/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automate_web/runtime.txt" afterPath="$PROJECT_DIR$/automate_web/runtime.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,14 +48,24 @@
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automate_web/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="179" column="15" lean-forward="false" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
+            <state relative-caret-position="322">
+              <caret line="158" column="17" lean-forward="false" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/automate_web/automate_web/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automate_web/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -72,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/automate_web/automate_web/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="139" column="8" lean-forward="false" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+            <state relative-caret-position="287">
+              <caret line="44" column="49" lean-forward="false" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -102,16 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/automate_web/static/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automate_web/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,8 +135,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>anaconda-clean==1.0</find>
+      <find>clyent==1.2.2</find>
+      <find>nbpresent==3.0.2</find>
+      <find>numpy</find>
+      <find>whitenoise</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -154,12 +169,12 @@
         <option value="$PROJECT_DIR$/automate_web/static/js/common.js" />
         <option value="$PROJECT_DIR$/automate_web/templates/base.html" />
         <option value="$PROJECT_DIR$/automate_web/static/css/base.css" />
-        <option value="$PROJECT_DIR$/automate_web/requirements.txt" />
-        <option value="$PROJECT_DIR$/automate_web/runtime.txt" />
-        <option value="$PROJECT_DIR$/automate_web/automate_web/settings.py" />
         <option value="$PROJECT_DIR$/automate_web/automate_web/wsgi.py" />
         <option value="$PROJECT_DIR$/automate_web/.gitignore" />
         <option value="$PROJECT_DIR$/automate_web/Procfile" />
+        <option value="$PROJECT_DIR$/automate_web/runtime.txt" />
+        <option value="$PROJECT_DIR$/automate_web/requirements.txt" />
+        <option value="$PROJECT_DIR$/automate_web/automate_web/settings.py" />
       </list>
     </option>
   </component>
@@ -204,6 +219,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="automate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automate_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automate_web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -520,7 +553,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553087834922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix:システムにインストールしたPythonバージョンに変更">
+      <created>1553088745485</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553088745485</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix:システムにインストールしたPythonバージョンに変更&#10;不要なインストールを削除">
+      <created>1553089224322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553089224322</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -597,7 +644,10 @@
     <MESSAGE value="feat:自動化WEB デスクトップクリーンプロジェクト新規追加" />
     <MESSAGE value="feat:本番用の設定を追加" />
     <MESSAGE value="feat:名称変更" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:名称変更" />
+    <MESSAGE value="fix:システムにインストールしたPythonバージョンに変更" />
+    <MESSAGE value="fix:システムにインストールしたPythonバージョンに変更&#10;不要なインストールを削除" />
+    <MESSAGE value="fix:herokuデプロイ用の設定を追加&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:herokuデプロイ用の設定を追加&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -784,16 +834,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/automate_web/opefile/src/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/automate_web/automate_web/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="e#636#668#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/automate_web/opefile/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -887,10 +927,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automate_web/automate_web/settings.py">
+    <entry file="file://$PROJECT_DIR$/automate_web/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="139" column="8" lean-forward="false" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_web/automate_web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_web/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -903,22 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automate_web/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automate_web/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="179" column="15" lean-forward="false" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/automate_web/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -927,10 +967,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automate_web/Procfile">
+    <entry file="file://$PROJECT_DIR$/automate_web/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        <state relative-caret-position="322">
+          <caret line="158" column="17" lean-forward="false" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automate_web/automate_web/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="44" column="49" lean-forward="false" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
           <folding />
         </state>
       </provider>
